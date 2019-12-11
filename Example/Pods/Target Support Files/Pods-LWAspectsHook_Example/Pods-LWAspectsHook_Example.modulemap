@@ -1,0 +1,6 @@
+framework module Pods_LWAspectsHook_Example {
+  umbrella header "Pods-LWAspectsHook_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

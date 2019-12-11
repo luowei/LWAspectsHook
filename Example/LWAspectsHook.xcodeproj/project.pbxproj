@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F53F1D1ED496A77D8A5602EA /* Pods_LWAspectsHook_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEFB41476BB756CD793A400 /* Pods_LWAspectsHook_Tests.framework */; };
 		F91E4C96FC776D2FACB332F8 /* Pods_LWAspectsHook_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4C37FC37E4C20516B99C4E /* Pods_LWAspectsHook_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		198316BC13EC6853512C7D03 /* Pods-LWAspectsHook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWAspectsHook_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LWAspectsHook_Tests/Pods-LWAspectsHook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1A4C37FC37E4C20516B99C4E /* Pods_LWAspectsHook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWAspectsHook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		303F266E6B52A1FBF5163DA5 /* Pods-LWAspectsHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWAspectsHook_Example.release.xcconfig"; path = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LWAspectsHook_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWAspectsHook_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,11 +60,9 @@
 		62824ADFA3BB99D5EA692AFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA4C6AB4DA2AA5F65232826B /* Pods-LWAspectsHook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWAspectsHook_Tests.release.xcconfig"; path = "Target Support Files/Pods-LWAspectsHook_Tests/Pods-LWAspectsHook_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C548527AA934A8ED54C2417D /* Pods-LWAspectsHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWAspectsHook_Example.debug.xcconfig"; path = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E24C0F2A81CDCBD90FA00D60 /* LWAspectsHook.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LWAspectsHook.podspec; path = ../LWAspectsHook.podspec; sourceTree = "<group>"; };
 		E4B973C2D9C278D9F6B0AAD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FCEFB41476BB756CD793A400 /* Pods_LWAspectsHook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWAspectsHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +84,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F53F1D1ED496A77D8A5602EA /* Pods_LWAspectsHook_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +95,6 @@
 			children = (
 				C548527AA934A8ED54C2417D /* Pods-LWAspectsHook_Example.debug.xcconfig */,
 				303F266E6B52A1FBF5163DA5 /* Pods-LWAspectsHook_Example.release.xcconfig */,
-				198316BC13EC6853512C7D03 /* Pods-LWAspectsHook_Tests.debug.xcconfig */,
-				BA4C6AB4DA2AA5F65232826B /* Pods-LWAspectsHook_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -136,7 +129,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				1A4C37FC37E4C20516B99C4E /* Pods_LWAspectsHook_Example.framework */,
-				FCEFB41476BB756CD793A400 /* Pods_LWAspectsHook_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,7 +215,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LWAspectsHook_Tests" */;
 			buildPhases = (
-				2374E1882593CFB1A216745C /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -295,28 +286,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2374E1882593CFB1A216745C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LWAspectsHook_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		79DA305C77F6386FC4F73D46 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,10 +315,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
 				"${BUILT_PRODUCTS_DIR}/LWAspectsHook/LWAspectsHook.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LWAspectsHook.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,7 +494,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 198316BC13EC6853512C7D03 /* Pods-LWAspectsHook_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +518,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA4C6AB4DA2AA5F65232826B /* Pods-LWAspectsHook_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

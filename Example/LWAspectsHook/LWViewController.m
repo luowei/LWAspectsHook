@@ -14,16 +14,19 @@
 
 @implementation LWViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+
+    [self hookTest:@"hi"];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(NSString *)hookTest:(NSString *)testStr {
+    NSString *str = @"hello world!";
+    if([testStr isEqualToString:@"hi"]){
+        str = @"fine, thank you!";
+    }
+    return str;
 }
 
 @end
