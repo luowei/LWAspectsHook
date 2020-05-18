@@ -26,6 +26,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luowei' => 'luowei@wodedata.com' }
   s.source           = { :git => 'https://gitlab.com/ioslibraries1/lwaspectshook.git' }
+  # s.source           = { :path => '/Users/luowei/projects/libs/LWAspectsHook' }
+  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
