@@ -26,9 +26,18 @@ sed -i '' "s/\(s\.homepage = \)\".*\"/\1\"https:\/\/gitee\.com\/lw_ios_libs\/${l
 # 注释 s.ios.vendored_framework
 sed -i '' "s/\(s\.ios\.vendored_framework\)/# \1/" "${podspec_file}"
 
-# 追加 
+# 追加 vendored_libraries
 sed -i '' "s/^end$/  s\.ios\.vendored_libraries = \'ios\/lib${LibName}\.a\' #end/g" "${podspec_file}"
 sed -i '' $'s/#end/\\\nend/g' "${podspec_file}"
 
 # git 提交
-
+if git diff-index --quiet HEAD --; then
+    echo "无修改"
+else
+	echo "有修改"
+	git add .
+	msg_info="修改${LibName}"
+	msg_random=`date +%F-%H%M%S`$(echo $RANDOM | tr '[0-9]' '[a-z]')
+	git commit -am "$msg_info $msg_random" 
+	git push origin master
+fi
