@@ -1,6 +1,6 @@
 # LWAspectsHook
 
-**LWAspectsHook, 切面注入**
+**LWAspectsHook, 实现切面注入，方法Hook相关功能**
 
 [![CI Status](https://img.shields.io/travis/luowei/LWAspectsHook.svg?style=flat)](https://travis-ci.org/luowei/LWAspectsHook)
 [![Version](https://img.shields.io/cocoapods/v/LWAspectsHook.svg?style=flat)](https://cocoapods.org/pods/LWAspectsHook)
