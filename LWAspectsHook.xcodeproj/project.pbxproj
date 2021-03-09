@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EAACC43825F7B2EC0056B88D /* LWHookConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC43525F7B2EC0056B88D /* LWHookConfig.m */; };
-		EAACC43A25F7B2EC0056B88D /* LWHookConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC43725F7B2EC0056B88D /* LWHookConfig.h */; };
-		EAACC44125F7B30F0056B88D /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC43D25F7B30F0056B88D /* Aspects.h */; };
+		EAACC43A25F7B2EC0056B88D /* LWHookConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC43725F7B2EC0056B88D /* LWHookConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC44125F7B30F0056B88D /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC43D25F7B30F0056B88D /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAACC44325F7B30F0056B88D /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC43F25F7B30F0056B88D /* Aspects.m */; };
 /* End PBXBuildFile section */
 
