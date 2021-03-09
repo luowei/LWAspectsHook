@@ -46,6 +46,15 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAACC44425F7BE880056B88D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -224,6 +233,7 @@
 				6003F588195388D20070C39A /* Resources */,
 				B8141F184707DF7C1FD0F56C /* [CP] Embed Pods Frameworks */,
 				EAACC3EF25F7AC770056B88D /* Embed Frameworks */,
+				EAACC44425F7BE880056B88D /* CopyFiles */,
 			);
 			buildRules = (
 			);
