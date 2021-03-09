@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://gitlab.com/ioslibraries1/lwaspectshook.git'
+  s.homepage         = 'https://github.com/luowei/LWAspectsHook.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luowei' => 'luowei@wodedata.com' }
-  s.source           = { :git => 'https://gitlab.com/ioslibraries1/lwaspectshook.git' }
+  s.source           = { :git => 'https://github.com/luowei/LWAspectsHook.git' }
   # s.source           = { :path => '/Users/luowei/projects/libs/LWAspectsHook' }
   
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'

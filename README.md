@@ -22,6 +22,16 @@ it, simply add the following line to your Podfile:
 pod 'LWAspectsHook'
 ```
 
+**Carthage**
+```ruby
+github "luowei/LWAspectsHook"
+```
+
+```sh
+carthage update --platform iOS
+# carthage update --no-use-binaries --platform iOS
+```
+
 ## Author
 
 luowei, luowei@wodedata.com

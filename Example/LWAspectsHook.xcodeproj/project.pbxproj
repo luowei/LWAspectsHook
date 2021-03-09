@@ -35,6 +35,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EAACC3EF25F7AC770056B88D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1A4C37FC37E4C20516B99C4E /* Pods_LWAspectsHook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWAspectsHook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		303F266E6B52A1FBF5163DA5 /* Pods-LWAspectsHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWAspectsHook_Example.release.xcconfig"; path = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,12 +70,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62824ADFA3BB99D5EA692AFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		62824ADFA3BB99D5EA692AFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C548527AA934A8ED54C2417D /* Pods-LWAspectsHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWAspectsHook_Example.debug.xcconfig"; path = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E24C0F2A81CDCBD90FA00D60 /* LWAspectsHook.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LWAspectsHook.podspec; path = ../LWAspectsHook.podspec; sourceTree = "<group>"; };
-		E4B973C2D9C278D9F6B0AAD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E24C0F2A81CDCBD90FA00D60 /* LWAspectsHook.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWAspectsHook.podspec; path = ../LWAspectsHook.podspec; sourceTree = "<group>"; };
+		E4B973C2D9C278D9F6B0AAD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EAACC3FB25F7AF970056B88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +110,6 @@
 				C548527AA934A8ED54C2417D /* Pods-LWAspectsHook_Example.debug.xcconfig */,
 				303F266E6B52A1FBF5163DA5 /* Pods-LWAspectsHook_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -106,6 +119,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LWAspectsHook */,
 				6003F5B5195388D20070C39A /* Tests */,
+				EAACC3F925F7AF970056B88D /* LWAspectsHook */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				154413F0924DFC02EB4B82F0 /* Pods */,
@@ -189,6 +203,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		EAACC3F925F7AF970056B88D /* LWAspectsHook */ = {
+			isa = PBXGroup;
+			children = (
+				EAACC3FB25F7AF970056B88D /* Info.plist */,
+			);
+			path = LWAspectsHook;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,6 +223,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				B8141F184707DF7C1FD0F56C /* [CP] Embed Pods Frameworks */,
+				EAACC3EF25F7AC770056B88D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +272,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -468,6 +492,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LWAspectsHook/LWAspectsHook-Prefix.pch";
 				INFOPLIST_FILE = "LWAspectsHook/LWAspectsHook-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +509,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LWAspectsHook/LWAspectsHook-Prefix.pch";
 				INFOPLIST_FILE = "LWAspectsHook/LWAspectsHook-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

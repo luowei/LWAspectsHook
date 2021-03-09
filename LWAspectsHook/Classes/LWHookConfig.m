@@ -3,7 +3,8 @@
 // Copyright (c) 2015 luowei. All rights reserved.
 //
 
-#import <Aspects/Aspects.h>
+//#import <Aspects/Aspects.h>
+#import "Aspects.h"
 #import "LWHookConfig.h"
 
 @implementation UIResponder(AspectHook)
