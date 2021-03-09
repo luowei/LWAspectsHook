@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "A short description of LWAspectsHook.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://gitlab.com/ioslibraries1/lwaspectshook.git",
+  "homepage": "https://github.com/luowei/LWAspectsHook.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "luowei": "luowei@wodedata.com"
   },
   "source": {
-    "git": "https://gitlab.com/ioslibraries1/lwaspectshook.git"
+    "git": "https://github.com/luowei/LWAspectsHook.git"
   },
   "platforms": {
     "ios": "8.0"

@@ -1,3 +1,24 @@
-PODFILE CHECKSUM: debcd2c60de92e27af8776845c6d8875b056fcca
+PODS:
+  - Aspects (1.4.1)
+  - LWAspectsHook (1.0.0):
+    - Aspects
+
+DEPENDENCIES:
+  - Aspects
+  - LWAspectsHook (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Aspects
+
+EXTERNAL SOURCES:
+  LWAspectsHook:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  LWAspectsHook: e14b0453298941a093806f648db5723a62459670
+
+PODFILE CHECKSUM: a2643f2d29d02d322a064e866a7a77907f6f2ec2
 
 COCOAPODS: 1.9.2

@@ -7,21 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D47B641892DB20392D291F3D5E995EB /* Pods-LWAspectsHook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D5BD51487214CA1636B46B35BD6E19 /* Pods-LWAspectsHook_Example-dummy.m */; };
+		07C9AB8077F51941FFA10D8E5EE01EA1 /* LWHookConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1160581FA76EE149BD9BF61E30281E5C /* LWHookConfig.m */; };
+		19D9061F99D71554210DD5E2BAFE3B5B /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 325E1DE4DCB4C534D06ABCD63E2F8B15 /* Aspects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AF17343CCFAB6AFCF0BC73F380108B3 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = B30E78E83656B249A2C505F8BD77F4D6 /* Aspects.m */; };
+		4494E689447D563726BB1A36D24DADB5 /* LWHookConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 93292F9DC34962C12E216C60099F1618 /* LWHookConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81A91002685210A058CDC831981E86DD /* Pods-LWAspectsHook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D5BD51487214CA1636B46B35BD6E19 /* Pods-LWAspectsHook_Example-dummy.m */; };
+		C960F206CD817F2D1D81B868DB165EED /* LWAspectsHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 488B83ADD545940B7BA577CC1AD61541 /* LWAspectsHook-dummy.m */; };
+		ED3669B16BA9603B4764FE727594C2F7 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 294023A17A64B93731AC48F5311B08E1 /* Aspects-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		86D60FCCFB9EB8E80AEBFDD7E0A72957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
+			remoteInfo = Aspects;
+		};
+		93E3A47F49D31D2FD816503C107D83EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
+			remoteInfo = Aspects;
+		};
+		CC6AF39DF58833DABBAEB7D52849BBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 193B0F5BF687AFEBFF790DB3B5D0796E;
+			remoteInfo = LWAspectsHook;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1160581FA76EE149BD9BF61E30281E5C /* LWHookConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWHookConfig.m; path = LWAspectsHook/Classes/LWHookConfig.m; sourceTree = "<group>"; };
 		1701DB8E48EA8C216AC4265B2CD3489D /* Pods-LWAspectsHook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWAspectsHook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2051B356F9D174B5BB37BC9DF0AEA780 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		294023A17A64B93731AC48F5311B08E1 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		2B5521FA0D687FC93ECE23C7E56F0D7B /* LWAspectsHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWAspectsHook.release.xcconfig; sourceTree = "<group>"; };
+		3118388173821D08C18A93A7F057A0D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		325E1DE4DCB4C534D06ABCD63E2F8B15 /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		488B83ADD545940B7BA577CC1AD61541 /* LWAspectsHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWAspectsHook-dummy.m"; sourceTree = "<group>"; };
+		4D952ED0F761C0BA1CCED14714F20D7D /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		5614FC705A17F97DE4B5E67782B3E449 /* Aspects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.release.xcconfig; sourceTree = "<group>"; };
+		618D517A4DCA886A6D4D0BEAB51D0813 /* Aspects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.debug.xcconfig; sourceTree = "<group>"; };
 		76D5BD51487214CA1636B46B35BD6E19 /* Pods-LWAspectsHook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWAspectsHook_Example-dummy.m"; sourceTree = "<group>"; };
+		93292F9DC34962C12E216C60099F1618 /* LWHookConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWHookConfig.h; path = LWAspectsHook/Classes/LWHookConfig.h; sourceTree = "<group>"; };
+		9808BF74538141204E4EB5B49809FE77 /* libAspects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAspects.a; path = libAspects.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A05D67BE24CBE968FDF18696E31D243 /* libPods-LWAspectsHook_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LWAspectsHook_Example.a"; path = "libPods-LWAspectsHook_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A295AEEEA183D46AF432C5FF21BDB368 /* libLWAspectsHook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLWAspectsHook.a; path = libLWAspectsHook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30E78E83656B249A2C505F8BD77F4D6 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		B3ECF341CB0D2DC760CED194266F6AA5 /* Pods-LWAspectsHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWAspectsHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1011AD7827EA7C76C952CAB5F6DFBF /* LWAspectsHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWAspectsHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDE8E186FA55B709A2404446AD530D48 /* LWAspectsHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWAspectsHook.debug.xcconfig; sourceTree = "<group>"; };
 		CD650F58F27EA9A3C53B0BA483556C64 /* Pods-LWAspectsHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWAspectsHook_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F549363F3215059FCFB119FE2F8B5D65 /* LWAspectsHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWAspectsHook-prefix.pch"; sourceTree = "<group>"; };
 		FAE5AA2F0EEF86BCC998D8217E212988 /* Pods-LWAspectsHook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWAspectsHook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0588AB6506322599F39FBD2D503B332D /* Frameworks */ = {
+		245D78D16FE3753CB91B998E82BFD4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC438FA3E1935CAEEEA4B07E0FEB43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D45922622142C50571DC23115D852394 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +92,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03169F243B22A6EF3EF30126E7700123 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				294023A17A64B93731AC48F5311B08E1 /* Aspects-dummy.m */,
+				4D952ED0F761C0BA1CCED14714F20D7D /* Aspects-prefix.pch */,
+				618D517A4DCA886A6D4D0BEAB51D0813 /* Aspects.debug.xcconfig */,
+				5614FC705A17F97DE4B5E67782B3E449 /* Aspects.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		18ECB66E49FFC6B8E670A422FAFFC9C1 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				325E1DE4DCB4C534D06ABCD63E2F8B15 /* Aspects.h */,
+				B30E78E83656B249A2C505F8BD77F4D6 /* Aspects.m */,
+				03169F243B22A6EF3EF30126E7700123 /* Support Files */,
+			);
+			name = Aspects;
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		2356515EBFD1E229F3880F8867BF260D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9808BF74538141204E4EB5B49809FE77 /* libAspects.a */,
+				A295AEEEA183D46AF432C5FF21BDB368 /* libLWAspectsHook.a */,
+				9A05D67BE24CBE968FDF18696E31D243 /* libPods-LWAspectsHook_Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AAE5E7627A3E67BC50061CB8B1C9DE5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72FFBB8D3676912FF11956DD1D9AA40E /* LWAspectsHook */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		72FFBB8D3676912FF11956DD1D9AA40E /* LWAspectsHook */ = {
+			isa = PBXGroup;
+			children = (
+				93292F9DC34962C12E216C60099F1618 /* LWHookConfig.h */,
+				1160581FA76EE149BD9BF61E30281E5C /* LWHookConfig.m */,
+				F7BB0BCD7ECC4CCA5A830337D950A36B /* Pod */,
+				F7AF75BB9A69B99899395F004BEEDEDB /* Support Files */,
+			);
+			name = LWAspectsHook;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		8BFCB46135A78DD45B40284599FA0FD8 /* Pods-LWAspectsHook_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -48,10 +162,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4AAE5E7627A3E67BC50061CB8B1C9DE5 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				E58E408D30A66944CAA8BBBE08D9528A /* Products */,
+				D4235D072F0DC7818942872CBFF5FCF4 /* Pods */,
+				2356515EBFD1E229F3880F8867BF260D /* Products */,
 				D6C6EC5DFB270506A45C53C5FAFCC490 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D4235D072F0DC7818942872CBFF5FCF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18ECB66E49FFC6B8E670A422FAFFC9C1 /* Aspects */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D6C6EC5DFB270506A45C53C5FAFCC490 /* Targets Support Files */ = {
@@ -69,18 +193,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E58E408D30A66944CAA8BBBE08D9528A /* Products */ = {
+		F7AF75BB9A69B99899395F004BEEDEDB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A05D67BE24CBE968FDF18696E31D243 /* libPods-LWAspectsHook_Example.a */,
+				488B83ADD545940B7BA577CC1AD61541 /* LWAspectsHook-dummy.m */,
+				F549363F3215059FCFB119FE2F8B5D65 /* LWAspectsHook-prefix.pch */,
+				BDE8E186FA55B709A2404446AD530D48 /* LWAspectsHook.debug.xcconfig */,
+				2B5521FA0D687FC93ECE23C7E56F0D7B /* LWAspectsHook.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LWAspectsHook";
+			sourceTree = "<group>";
+		};
+		F7BB0BCD7ECC4CCA5A830337D950A36B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2051B356F9D174B5BB37BC9DF0AEA780 /* LICENSE */,
+				BB1011AD7827EA7C76C952CAB5F6DFBF /* LWAspectsHook.podspec */,
+				3118388173821D08C18A93A7F057A0D7 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		56743AC77ABDB2A16BE316D767BF580C /* Headers */ = {
+		4D9EDAF3AE433F14FEE9BEFE990D968B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4494E689447D563726BB1A36D24DADB5 /* LWHookConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A78E845D88CA8DC3C5F3326FF8B140 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D9061F99D71554210DD5E2BAFE3B5B /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19620E1FB61BFB38C35991E35026CE3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,21 +244,58 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		193B0F5BF687AFEBFF790DB3B5D0796E /* LWAspectsHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4713F9BDC2BDFF981E55F7087928DE /* Build configuration list for PBXNativeTarget "LWAspectsHook" */;
+			buildPhases = (
+				4D9EDAF3AE433F14FEE9BEFE990D968B /* Headers */,
+				81D9574FA30E539432CD768E25C5087C /* Sources */,
+				4BC438FA3E1935CAEEEA4B07E0FEB43A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26F856571203091EBB0CBF326287EDD /* PBXTargetDependency */,
+			);
+			name = LWAspectsHook;
+			productName = LWAspectsHook;
+			productReference = A295AEEEA183D46AF432C5FF21BDB368 /* libLWAspectsHook.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		9B08B76B6D07B4853B0F05BFC4094FC0 /* Pods-LWAspectsHook_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBFB64AACF18A14AFBB35EE4D04666FC /* Build configuration list for PBXNativeTarget "Pods-LWAspectsHook_Example" */;
+			buildConfigurationList = 5C68DAAE90AC82057F6AAD43396CD328 /* Build configuration list for PBXNativeTarget "Pods-LWAspectsHook_Example" */;
 			buildPhases = (
-				56743AC77ABDB2A16BE316D767BF580C /* Headers */,
-				89D8E619887D74D4D821AB0BE3B05D10 /* Sources */,
-				0588AB6506322599F39FBD2D503B332D /* Frameworks */,
+				C19620E1FB61BFB38C35991E35026CE3 /* Headers */,
+				0A1A9C402455254F534470498CDCF917 /* Sources */,
+				245D78D16FE3753CB91B998E82BFD4B1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92560FC69939EE5A0763EA201E136ACC /* PBXTargetDependency */,
+				286FA64228E78A552933C487DBBD6153 /* PBXTargetDependency */,
+			);
+			name = "Pods-LWAspectsHook_Example";
+			productName = "Pods-LWAspectsHook_Example";
+			productReference = 9A05D67BE24CBE968FDF18696E31D243 /* libPods-LWAspectsHook_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C6539905C4D50932B36244650B93C79B /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926BB87AF71503C64757F8405AFA5445 /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				61A78E845D88CA8DC3C5F3326FF8B140 /* Headers */,
+				0C759CEFF2A195ADD12C40E0E994DFE8 /* Sources */,
+				D45922622142C50571DC23115D852394 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-LWAspectsHook_Example";
-			productName = "Pods-LWAspectsHook_Example";
-			productReference = 9A05D67BE24CBE968FDF18696E31D243 /* libPods-LWAspectsHook_Example.a */;
+			name = Aspects;
+			productName = Aspects;
+			productReference = 9808BF74538141204E4EB5B49809FE77 /* libAspects.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -125,27 +316,117 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E58E408D30A66944CAA8BBBE08D9528A /* Products */;
+			productRefGroup = 2356515EBFD1E229F3880F8867BF260D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				C6539905C4D50932B36244650B93C79B /* Aspects */,
+				193B0F5BF687AFEBFF790DB3B5D0796E /* LWAspectsHook */,
 				9B08B76B6D07B4853B0F05BFC4094FC0 /* Pods-LWAspectsHook_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		89D8E619887D74D4D821AB0BE3B05D10 /* Sources */ = {
+		0A1A9C402455254F534470498CDCF917 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D47B641892DB20392D291F3D5E995EB /* Pods-LWAspectsHook_Example-dummy.m in Sources */,
+				81A91002685210A058CDC831981E86DD /* Pods-LWAspectsHook_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C759CEFF2A195ADD12C40E0E994DFE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3669B16BA9603B4764FE727594C2F7 /* Aspects-dummy.m in Sources */,
+				3AF17343CCFAB6AFCF0BC73F380108B3 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D9574FA30E539432CD768E25C5087C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C960F206CD817F2D1D81B868DB165EED /* LWAspectsHook-dummy.m in Sources */,
+				07C9AB8077F51941FFA10D8E5EE01EA1 /* LWHookConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		286FA64228E78A552933C487DBBD6153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LWAspectsHook;
+			target = 193B0F5BF687AFEBFF790DB3B5D0796E /* LWAspectsHook */;
+			targetProxy = CC6AF39DF58833DABBAEB7D52849BBCE /* PBXContainerItemProxy */;
+		};
+		92560FC69939EE5A0763EA201E136ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C6539905C4D50932B36244650B93C79B /* Aspects */;
+			targetProxy = 93E3A47F49D31D2FD816503C107D83EC /* PBXContainerItemProxy */;
+		};
+		E26F856571203091EBB0CBF326287EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C6539905C4D50932B36244650B93C79B /* Aspects */;
+			targetProxy = 86D60FCCFB9EB8E80AEBFDD7E0A72957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0F552339971421FB2832DEC60221817E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5614FC705A17F97DE4B5E67782B3E449 /* Aspects.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Aspects;
+				PRODUCT_NAME = Aspects;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2470D1D9060E0F6F827E9D021049CDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618D517A4DCA886A6D4D0BEAB51D0813 /* Aspects.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Aspects;
+				PRODUCT_NAME = Aspects;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -206,23 +487,26 @@
 			};
 			name = Release;
 		};
-		7EECD1ED99DF94F01FDBD07882932BA8 /* Release */ = {
+		75D499653D2088A39634B26022A11FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD650F58F27EA9A3C53B0BA483556C64 /* Pods-LWAspectsHook_Example.release.xcconfig */;
+			baseConfigurationReference = 2B5521FA0D687FC93ECE23C7E56F0D7B /* LWAspectsHook.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LWAspectsHook/LWAspectsHook-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LWAspectsHook;
+				PRODUCT_NAME = LWAspectsHook;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -292,7 +576,29 @@
 			};
 			name = Debug;
 		};
-		9ED730D07C4B472E52C4E9AE7759AC6C /* Debug */ = {
+		82AD774ADC3F5D56FFB977666CED480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD650F58F27EA9A3C53B0BA483556C64 /* Pods-LWAspectsHook_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC9798C1BB373998665C3DC323B364C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3ECF341CB0D2DC760CED194266F6AA5 /* Pods-LWAspectsHook_Example.debug.xcconfig */;
 			buildSettings = {
@@ -313,9 +619,42 @@
 			};
 			name = Debug;
 		};
+		E5062F48E81499A27EE8E8E6476EC31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE8E186FA55B709A2404446AD530D48 /* LWAspectsHook.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LWAspectsHook/LWAspectsHook-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LWAspectsHook;
+				PRODUCT_NAME = LWAspectsHook;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C4713F9BDC2BDFF981E55F7087928DE /* Build configuration list for PBXNativeTarget "LWAspectsHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5062F48E81499A27EE8E8E6476EC31B /* Debug */,
+				75D499653D2088A39634B26022A11FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -325,11 +664,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBFB64AACF18A14AFBB35EE4D04666FC /* Build configuration list for PBXNativeTarget "Pods-LWAspectsHook_Example" */ = {
+		5C68DAAE90AC82057F6AAD43396CD328 /* Build configuration list for PBXNativeTarget "Pods-LWAspectsHook_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9ED730D07C4B472E52C4E9AE7759AC6C /* Debug */,
-				7EECD1ED99DF94F01FDBD07882932BA8 /* Release */,
+				CDC9798C1BB373998665C3DC323B364C /* Debug */,
+				82AD774ADC3F5D56FFB977666CED480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926BB87AF71503C64757F8405AFA5445 /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2470D1D9060E0F6F827E9D021049CDD4 /* Debug */,
+				0F552339971421FB2832DEC60221817E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
