@@ -22,7 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F91E4C96FC776D2FACB332F8 /* Pods_LWAspectsHook_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4C37FC37E4C20516B99C4E /* Pods_LWAspectsHook_Example.framework */; };
+		9F8A9B08E13E0CEB254BA736 /* libPods-LWAspectsHook_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8A3F1FBCCCBB42BE6A8524 /* libPods-LWAspectsHook_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1A4C37FC37E4C20516B99C4E /* Pods_LWAspectsHook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWAspectsHook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8A3F1FBCCCBB42BE6A8524 /* libPods-LWAspectsHook_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWAspectsHook_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		303F266E6B52A1FBF5163DA5 /* Pods-LWAspectsHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWAspectsHook_Example.release.xcconfig"; path = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LWAspectsHook_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWAspectsHook_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,7 +85,6 @@
 		C548527AA934A8ED54C2417D /* Pods-LWAspectsHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWAspectsHook_Example.debug.xcconfig"; path = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E24C0F2A81CDCBD90FA00D60 /* LWAspectsHook.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWAspectsHook.podspec; path = ../LWAspectsHook.podspec; sourceTree = "<group>"; };
 		E4B973C2D9C278D9F6B0AAD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EAACC3FB25F7AF970056B88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +95,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				F91E4C96FC776D2FACB332F8 /* Pods_LWAspectsHook_Example.framework in Frameworks */,
+				9F8A9B08E13E0CEB254BA736 /* libPods-LWAspectsHook_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +127,6 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LWAspectsHook */,
 				6003F5B5195388D20070C39A /* Tests */,
-				EAACC3F925F7AF970056B88D /* LWAspectsHook */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				154413F0924DFC02EB4B82F0 /* Pods */,
@@ -151,7 +149,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1A4C37FC37E4C20516B99C4E /* Pods_LWAspectsHook_Example.framework */,
+				2D8A3F1FBCCCBB42BE6A8524 /* libPods-LWAspectsHook_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,14 +210,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		EAACC3F925F7AF970056B88D /* LWAspectsHook */ = {
-			isa = PBXGroup;
-			children = (
-				EAACC3FB25F7AF970056B88D /* Info.plist */,
-			);
-			path = LWAspectsHook;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,7 +221,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B8141F184707DF7C1FD0F56C /* [CP] Embed Pods Frameworks */,
 				EAACC3EF25F7AC770056B88D /* Embed Frameworks */,
 				EAACC44425F7BE880056B88D /* CopyFiles */,
 			);
@@ -340,26 +329,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8141F184707DF7C1FD0F56C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
-				"${BUILT_PRODUCTS_DIR}/LWAspectsHook/LWAspectsHook.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LWAspectsHook.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

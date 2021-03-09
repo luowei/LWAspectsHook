@@ -7,341 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28653EF56DF889264E38E62EDCA78B9F /* Aspects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78FCCCD3F2A361AFDF4C4CD2BC28258 /* Aspects.framework */; };
-		40E4931C1FCC6C2CE268453D9FD93658 /* LWHookConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F99F3E47DC09F5FF2542E818525D35 /* LWHookConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43F40939AB5C37B4206600177767FA9E /* Pods-LWAspectsHook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 395687298FB8150DA0BEF83E294082C4 /* Pods-LWAspectsHook_Example-dummy.m */; };
-		533B3D5EA2C5DF73D47948C06F20D557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC4F55CC4FC0A435019C640BC95C745 /* Foundation.framework */; };
-		724C6F3FFEE834611903385ACED9A65F /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9266E4E5570CFB197033222506CF40A6 /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7716C0C8D1FAEADC8F37C23774C2B4C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC4F55CC4FC0A435019C640BC95C745 /* Foundation.framework */; };
-		A954361B6A6FD111452CB9DABC9B30F7 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AB1FBB0F73DDA116F07FD1377DB77D /* Aspects-dummy.m */; };
-		B764FCCC2CFA445FCF87065F8ADBAC10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC4F55CC4FC0A435019C640BC95C745 /* Foundation.framework */; };
-		C118B4C4F73B205556E65F829EDBB00F /* Pods-LWAspectsHook_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 038DA1279205E9C8C6C64374DF6E806F /* Pods-LWAspectsHook_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C714EE1244A58983BE8AA3693538882F /* LWAspectsHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8859FE209D5BAC976CD161C03572F2F /* LWAspectsHook-dummy.m */; };
-		D29807C0AF15AB9973D93D1416EF37EB /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 648AA24DD9A5CD165B180E19CEBE892F /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB623D92E67E6A486EE60AA25E0A5ACB /* LWHookConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFF311B048DE7A9C87C5858F6E7113 /* LWHookConfig.m */; };
-		F51A21D307B9275272758FF324F60B91 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C39E89E7C6B2B5BC2E1F9C457377E54 /* Aspects.m */; };
-		F930EA52D352575C0E9A802CC18E1222 /* LWAspectsHook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7954C0997E9772E6EC4C16FEBCA5308F /* LWAspectsHook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D47B641892DB20392D291F3D5E995EB /* Pods-LWAspectsHook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D5BD51487214CA1636B46B35BD6E19 /* Pods-LWAspectsHook_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		43B8358E219B6D0D04E691F1889C5F85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
-			remoteInfo = Aspects;
-		};
-		887BC745F2687B812239FA2F64DF0092 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 193B0F5BF687AFEBFF790DB3B5D0796E;
-			remoteInfo = LWAspectsHook;
-		};
-		B16B62733081186371F1FDFE6D6178B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6539905C4D50932B36244650B93C79B;
-			remoteInfo = Aspects;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		038DA1279205E9C8C6C64374DF6E806F /* Pods-LWAspectsHook_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LWAspectsHook_Example-umbrella.h"; sourceTree = "<group>"; };
-		08BED2D016108E508C7BBE6480C7A01B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		126193F58EDC348D84DCF0543E9A8834 /* Pods-LWAspectsHook_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LWAspectsHook_Example.modulemap"; sourceTree = "<group>"; };
-		188B9A84078A8F0E6CC01BDB7696C3DB /* LWAspectsHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWAspectsHook-prefix.pch"; sourceTree = "<group>"; };
-		30AB1FBB0F73DDA116F07FD1377DB77D /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
-		35B746CA1FBCCBD77B34998CE31736BF /* Pods-LWAspectsHook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWAspectsHook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		395687298FB8150DA0BEF83E294082C4 /* Pods-LWAspectsHook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWAspectsHook_Example-dummy.m"; sourceTree = "<group>"; };
-		47FFF311B048DE7A9C87C5858F6E7113 /* LWHookConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LWHookConfig.m; path = LWAspectsHook/Classes/LWHookConfig.m; sourceTree = "<group>"; };
-		5571FD815B5C01F95C422D6C2294C6D8 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
-		5C15596D478AB8D2A3BD65323461832A /* Pods-LWAspectsHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWAspectsHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5CE0192E3417CA428487428449C2D360 /* Pods-LWAspectsHook_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWAspectsHook_Example-Info.plist"; sourceTree = "<group>"; };
-		648AA24DD9A5CD165B180E19CEBE892F /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
-		690CEE9203688AE734287770887FE750 /* LWAspectsHook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LWAspectsHook-Info.plist"; sourceTree = "<group>"; };
-		7330893B955BC7B8A2FEE659CAF9FEB9 /* Pods-LWAspectsHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWAspectsHook_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7954C0997E9772E6EC4C16FEBCA5308F /* LWAspectsHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWAspectsHook-umbrella.h"; sourceTree = "<group>"; };
-		7BD807216B19292A41471A8E5F2EC0D7 /* LWAspectsHook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LWAspectsHook.modulemap; sourceTree = "<group>"; };
-		7D5DA627722B964AF585DD1CBD2B0406 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8C39E89E7C6B2B5BC2E1F9C457377E54 /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
-		9266E4E5570CFB197033222506CF40A6 /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
-		9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aspects.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A05D67BE24CBE968FDF18696E31D243 /* Pods_LWAspectsHook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LWAspectsHook_Example.framework; path = "Pods-LWAspectsHook_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1701DB8E48EA8C216AC4265B2CD3489D /* Pods-LWAspectsHook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWAspectsHook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76D5BD51487214CA1636B46B35BD6E19 /* Pods-LWAspectsHook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWAspectsHook_Example-dummy.m"; sourceTree = "<group>"; };
+		9A05D67BE24CBE968FDF18696E31D243 /* libPods-LWAspectsHook_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LWAspectsHook_Example.a"; path = "libPods-LWAspectsHook_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A295AEEEA183D46AF432C5FF21BDB368 /* LWAspectsHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LWAspectsHook.framework; path = LWAspectsHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0BF3E7140294A5349F80DB77FBCFEEE /* Pods-LWAspectsHook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWAspectsHook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B73DA103875812BA1220FC7F684560AD /* LWAspectsHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWAspectsHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B8F99F3E47DC09F5FF2542E818525D35 /* LWHookConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LWHookConfig.h; path = LWAspectsHook/Classes/LWHookConfig.h; sourceTree = "<group>"; };
-		BECBB1CF0E2EB7EA51F0D7AA418A33D6 /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
-		E6E41BFF4FC0E4C3A88DBC0529854801 /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Aspects.modulemap; sourceTree = "<group>"; };
-		EAFB64FD69CB3871A51F5119B6B209A2 /* LWAspectsHook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWAspectsHook.xcconfig; sourceTree = "<group>"; };
-		F42D011483A30CD25545ADFD7488BD03 /* Aspects-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Aspects-Info.plist"; sourceTree = "<group>"; };
-		F78FCCCD3F2A361AFDF4C4CD2BC28258 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8859FE209D5BAC976CD161C03572F2F /* LWAspectsHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWAspectsHook-dummy.m"; sourceTree = "<group>"; };
-		FBC4F55CC4FC0A435019C640BC95C745 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FC5FE02B8DCB8353D4B0BAD0B7A93FA0 /* Pods-LWAspectsHook_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LWAspectsHook_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B3ECF341CB0D2DC760CED194266F6AA5 /* Pods-LWAspectsHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWAspectsHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD650F58F27EA9A3C53B0BA483556C64 /* Pods-LWAspectsHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWAspectsHook_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FAE5AA2F0EEF86BCC998D8217E212988 /* Pods-LWAspectsHook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWAspectsHook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		387E79B4E83F94C183BB0F03D54230B8 /* Frameworks */ = {
+		0588AB6506322599F39FBD2D503B332D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7716C0C8D1FAEADC8F37C23774C2B4C9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6931EAEBEC4CDFE86DAFEA59E715989A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28653EF56DF889264E38E62EDCA78B9F /* Aspects.framework in Frameworks */,
-				B764FCCC2CFA445FCF87065F8ADBAC10 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9943FC1B865C20DF2ED50FB7E60CBB47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				533B3D5EA2C5DF73D47948C06F20D557 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		263AD61A8CAFA2D20C3EC549EC66A1B2 /* Frameworks */ = {
+		8BFCB46135A78DD45B40284599FA0FD8 /* Pods-LWAspectsHook_Example */ = {
 			isa = PBXGroup;
 			children = (
-				F78FCCCD3F2A361AFDF4C4CD2BC28258 /* Aspects.framework */,
-				65C16041FBC0EB2C90D05A1DF69D695D /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3959B58DE7F30ED825A370E2FA2FC1A1 /* LWAspectsHook */ = {
-			isa = PBXGroup;
-			children = (
-				B8F99F3E47DC09F5FF2542E818525D35 /* LWHookConfig.h */,
-				47FFF311B048DE7A9C87C5858F6E7113 /* LWHookConfig.m */,
-				B8328831C46C27CACD0F3FC119EA6534 /* Pod */,
-				AD54B389E7558316895461BF30BA493D /* Support Files */,
-			);
-			name = LWAspectsHook;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3CF99FEC181494D1132E9EB8B71C779F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C6BD42D76B5D2D0EA3388D14BBCC716 /* Pods-LWAspectsHook_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4AAE5E7627A3E67BC50061CB8B1C9DE5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3959B58DE7F30ED825A370E2FA2FC1A1 /* LWAspectsHook */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		65C16041FBC0EB2C90D05A1DF69D695D /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FBC4F55CC4FC0A435019C640BC95C745 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9C6BD42D76B5D2D0EA3388D14BBCC716 /* Pods-LWAspectsHook_Example */ = {
-			isa = PBXGroup;
-			children = (
-				126193F58EDC348D84DCF0543E9A8834 /* Pods-LWAspectsHook_Example.modulemap */,
-				35B746CA1FBCCBD77B34998CE31736BF /* Pods-LWAspectsHook_Example-acknowledgements.markdown */,
-				B0BF3E7140294A5349F80DB77FBCFEEE /* Pods-LWAspectsHook_Example-acknowledgements.plist */,
-				395687298FB8150DA0BEF83E294082C4 /* Pods-LWAspectsHook_Example-dummy.m */,
-				FC5FE02B8DCB8353D4B0BAD0B7A93FA0 /* Pods-LWAspectsHook_Example-frameworks.sh */,
-				5CE0192E3417CA428487428449C2D360 /* Pods-LWAspectsHook_Example-Info.plist */,
-				038DA1279205E9C8C6C64374DF6E806F /* Pods-LWAspectsHook_Example-umbrella.h */,
-				5C15596D478AB8D2A3BD65323461832A /* Pods-LWAspectsHook_Example.debug.xcconfig */,
-				7330893B955BC7B8A2FEE659CAF9FEB9 /* Pods-LWAspectsHook_Example.release.xcconfig */,
+				1701DB8E48EA8C216AC4265B2CD3489D /* Pods-LWAspectsHook_Example-acknowledgements.markdown */,
+				FAE5AA2F0EEF86BCC998D8217E212988 /* Pods-LWAspectsHook_Example-acknowledgements.plist */,
+				76D5BD51487214CA1636B46B35BD6E19 /* Pods-LWAspectsHook_Example-dummy.m */,
+				B3ECF341CB0D2DC760CED194266F6AA5 /* Pods-LWAspectsHook_Example.debug.xcconfig */,
+				CD650F58F27EA9A3C53B0BA483556C64 /* Pods-LWAspectsHook_Example.release.xcconfig */,
 			);
 			name = "Pods-LWAspectsHook_Example";
 			path = "Target Support Files/Pods-LWAspectsHook_Example";
-			sourceTree = "<group>";
-		};
-		AD54B389E7558316895461BF30BA493D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7BD807216B19292A41471A8E5F2EC0D7 /* LWAspectsHook.modulemap */,
-				EAFB64FD69CB3871A51F5119B6B209A2 /* LWAspectsHook.xcconfig */,
-				F8859FE209D5BAC976CD161C03572F2F /* LWAspectsHook-dummy.m */,
-				690CEE9203688AE734287770887FE750 /* LWAspectsHook-Info.plist */,
-				188B9A84078A8F0E6CC01BDB7696C3DB /* LWAspectsHook-prefix.pch */,
-				7954C0997E9772E6EC4C16FEBCA5308F /* LWAspectsHook-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LWAspectsHook";
-			sourceTree = "<group>";
-		};
-		B61352ECC6F0464A40F80E91B4EFB228 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E6E41BFF4FC0E4C3A88DBC0529854801 /* Aspects.modulemap */,
-				5571FD815B5C01F95C422D6C2294C6D8 /* Aspects.xcconfig */,
-				30AB1FBB0F73DDA116F07FD1377DB77D /* Aspects-dummy.m */,
-				F42D011483A30CD25545ADFD7488BD03 /* Aspects-Info.plist */,
-				BECBB1CF0E2EB7EA51F0D7AA418A33D6 /* Aspects-prefix.pch */,
-				9266E4E5570CFB197033222506CF40A6 /* Aspects-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Aspects";
-			sourceTree = "<group>";
-		};
-		B8328831C46C27CACD0F3FC119EA6534 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				08BED2D016108E508C7BBE6480C7A01B /* LICENSE */,
-				B73DA103875812BA1220FC7F684560AD /* LWAspectsHook.podspec */,
-				7D5DA627722B964AF585DD1CBD2B0406 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C90E7A4754C5D458C36DD2A2218106C6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */,
-				A295AEEEA183D46AF432C5FF21BDB368 /* LWAspectsHook.framework */,
-				9A05D67BE24CBE968FDF18696E31D243 /* Pods_LWAspectsHook_Example.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4AAE5E7627A3E67BC50061CB8B1C9DE5 /* Development Pods */,
-				263AD61A8CAFA2D20C3EC549EC66A1B2 /* Frameworks */,
-				D4235D072F0DC7818942872CBFF5FCF4 /* Pods */,
-				C90E7A4754C5D458C36DD2A2218106C6 /* Products */,
-				3CF99FEC181494D1132E9EB8B71C779F /* Targets Support Files */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				E58E408D30A66944CAA8BBBE08D9528A /* Products */,
+				D6C6EC5DFB270506A45C53C5FAFCC490 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D4235D072F0DC7818942872CBFF5FCF4 /* Pods */ = {
+		D6C6EC5DFB270506A45C53C5FAFCC490 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FFB9F6CA099B5530A6C1A22AE06298A2 /* Aspects */,
+				8BFCB46135A78DD45B40284599FA0FD8 /* Pods-LWAspectsHook_Example */,
 			);
-			name = Pods;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FFB9F6CA099B5530A6C1A22AE06298A2 /* Aspects */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				648AA24DD9A5CD165B180E19CEBE892F /* Aspects.h */,
-				8C39E89E7C6B2B5BC2E1F9C457377E54 /* Aspects.m */,
-				B61352ECC6F0464A40F80E91B4EFB228 /* Support Files */,
 			);
-			name = Aspects;
-			path = Aspects;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E58E408D30A66944CAA8BBBE08D9528A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A05D67BE24CBE968FDF18696E31D243 /* libPods-LWAspectsHook_Example.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E8063B0EEAF46B5A5FE22AAEA893D1F /* Headers */ = {
+		56743AC77ABDB2A16BE316D767BF580C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F930EA52D352575C0E9A802CC18E1222 /* LWAspectsHook-umbrella.h in Headers */,
-				40E4931C1FCC6C2CE268453D9FD93658 /* LWHookConfig.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FBAA72DD81F45CA3679E2B42B68C03D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C118B4C4F73B205556E65F829EDBB00F /* Pods-LWAspectsHook_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99F93E54BD32ABF6BEA21002C98722DF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				724C6F3FFEE834611903385ACED9A65F /* Aspects-umbrella.h in Headers */,
-				D29807C0AF15AB9973D93D1416EF37EB /* Aspects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		193B0F5BF687AFEBFF790DB3B5D0796E /* LWAspectsHook */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4E29E67F428CB153CE4D5B2EE33F25BA /* Build configuration list for PBXNativeTarget "LWAspectsHook" */;
-			buildPhases = (
-				1E8063B0EEAF46B5A5FE22AAEA893D1F /* Headers */,
-				C9289EA6B68838B39A523165099615FA /* Sources */,
-				6931EAEBEC4CDFE86DAFEA59E715989A /* Frameworks */,
-				D169E26EF9239DEFA4313A28F660A927 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				459B3ACB5912DE4BD7C648F641FECB5C /* PBXTargetDependency */,
-			);
-			name = LWAspectsHook;
-			productName = LWAspectsHook;
-			productReference = A295AEEEA183D46AF432C5FF21BDB368 /* LWAspectsHook.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9B08B76B6D07B4853B0F05BFC4094FC0 /* Pods-LWAspectsHook_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF14CC5C379FE73BD2BDF7121E894F2A /* Build configuration list for PBXNativeTarget "Pods-LWAspectsHook_Example" */;
+			buildConfigurationList = FBFB64AACF18A14AFBB35EE4D04666FC /* Build configuration list for PBXNativeTarget "Pods-LWAspectsHook_Example" */;
 			buildPhases = (
-				5FBAA72DD81F45CA3679E2B42B68C03D /* Headers */,
-				ECB2247D9A9678BA17C7B2BC6361EAC7 /* Sources */,
-				387E79B4E83F94C183BB0F03D54230B8 /* Frameworks */,
-				C91EE5088959DA2D1E00FE832089A204 /* Resources */,
+				56743AC77ABDB2A16BE316D767BF580C /* Headers */,
+				89D8E619887D74D4D821AB0BE3B05D10 /* Sources */,
+				0588AB6506322599F39FBD2D503B332D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B6670C6C78C03C3A2E88641EF0B6CC7 /* PBXTargetDependency */,
-				500F33FD0F3D697A9274B8A39CB6975C /* PBXTargetDependency */,
 			);
 			name = "Pods-LWAspectsHook_Example";
 			productName = "Pods-LWAspectsHook_Example";
-			productReference = 9A05D67BE24CBE968FDF18696E31D243 /* Pods_LWAspectsHook_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C6539905C4D50932B36244650B93C79B /* Aspects */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 481C79F5C07A881793399297BB5B77F1 /* Build configuration list for PBXNativeTarget "Aspects" */;
-			buildPhases = (
-				99F93E54BD32ABF6BEA21002C98722DF /* Headers */,
-				C4AE8E5152CE884778AC9B63E3E90C1A /* Sources */,
-				9943FC1B865C20DF2ED50FB7E60CBB47 /* Frameworks */,
-				9EFB5C01B84AD08B8E3C507B30A26819 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Aspects;
-			productName = Aspects;
-			productReference = 9808BF74538141204E4EB5B49809FE77 /* Aspects.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 9A05D67BE24CBE968FDF18696E31D243 /* libPods-LWAspectsHook_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -361,125 +125,27 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C90E7A4754C5D458C36DD2A2218106C6 /* Products */;
+			productRefGroup = E58E408D30A66944CAA8BBBE08D9528A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6539905C4D50932B36244650B93C79B /* Aspects */,
-				193B0F5BF687AFEBFF790DB3B5D0796E /* LWAspectsHook */,
 				9B08B76B6D07B4853B0F05BFC4094FC0 /* Pods-LWAspectsHook_Example */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		9EFB5C01B84AD08B8E3C507B30A26819 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C91EE5088959DA2D1E00FE832089A204 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D169E26EF9239DEFA4313A28F660A927 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		C4AE8E5152CE884778AC9B63E3E90C1A /* Sources */ = {
+		89D8E619887D74D4D821AB0BE3B05D10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A954361B6A6FD111452CB9DABC9B30F7 /* Aspects-dummy.m in Sources */,
-				F51A21D307B9275272758FF324F60B91 /* Aspects.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9289EA6B68838B39A523165099615FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C714EE1244A58983BE8AA3693538882F /* LWAspectsHook-dummy.m in Sources */,
-				DB623D92E67E6A486EE60AA25E0A5ACB /* LWHookConfig.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECB2247D9A9678BA17C7B2BC6361EAC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43F40939AB5C37B4206600177767FA9E /* Pods-LWAspectsHook_Example-dummy.m in Sources */,
+				5D47B641892DB20392D291F3D5E995EB /* Pods-LWAspectsHook_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		459B3ACB5912DE4BD7C648F641FECB5C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Aspects;
-			target = C6539905C4D50932B36244650B93C79B /* Aspects */;
-			targetProxy = B16B62733081186371F1FDFE6D6178B1 /* PBXContainerItemProxy */;
-		};
-		500F33FD0F3D697A9274B8A39CB6975C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LWAspectsHook;
-			target = 193B0F5BF687AFEBFF790DB3B5D0796E /* LWAspectsHook */;
-			targetProxy = 887BC745F2687B812239FA2F64DF0092 /* PBXContainerItemProxy */;
-		};
-		5B6670C6C78C03C3A2E88641EF0B6CC7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Aspects;
-			target = C6539905C4D50932B36244650B93C79B /* Aspects */;
-			targetProxy = 43B8358E219B6D0D04E691F1889C5F85 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		0E5D3273CF3BAE85D63A40F568D4CE87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C15596D478AB8D2A3BD65323461832A /* Pods-LWAspectsHook_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -540,35 +206,25 @@
 			};
 			name = Release;
 		};
-		56399AB3F83E169B52BEB5322ED672D8 /* Release */ = {
+		7EECD1ED99DF94F01FDBD07882932BA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAFB64FD69CB3871A51F5119B6B209A2 /* LWAspectsHook.xcconfig */;
+			baseConfigurationReference = CD650F58F27EA9A3C53B0BA483556C64 /* Pods-LWAspectsHook_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LWAspectsHook/LWAspectsHook-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LWAspectsHook/LWAspectsHook-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LWAspectsHook/LWAspectsHook.modulemap";
-				PRODUCT_MODULE_NAME = LWAspectsHook;
-				PRODUCT_NAME = LWAspectsHook;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -636,146 +292,30 @@
 			};
 			name = Debug;
 		};
-		845EF1568EC23AD96DE109111714C18C /* Debug */ = {
+		9ED730D07C4B472E52C4E9AE7759AC6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5571FD815B5C01F95C422D6C2294C6D8 /* Aspects.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
-				PRODUCT_MODULE_NAME = Aspects;
-				PRODUCT_NAME = Aspects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		949B4223676364EA6AAAB91F8C33C128 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7330893B955BC7B8A2FEE659CAF9FEB9 /* Pods-LWAspectsHook_Example.release.xcconfig */;
+			baseConfigurationReference = B3ECF341CB0D2DC760CED194266F6AA5 /* Pods-LWAspectsHook_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LWAspectsHook_Example/Pods-LWAspectsHook_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F46A072C41D0E95CFB47CC420687A31A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5571FD815B5C01F95C422D6C2294C6D8 /* Aspects.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Aspects/Aspects-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
-				PRODUCT_MODULE_NAME = Aspects;
-				PRODUCT_NAME = Aspects;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F91EB8AD6141593F44A22F66F75A14E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAFB64FD69CB3871A51F5119B6B209A2 /* LWAspectsHook.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LWAspectsHook/LWAspectsHook-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LWAspectsHook/LWAspectsHook-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LWAspectsHook/LWAspectsHook.modulemap";
-				PRODUCT_MODULE_NAME = LWAspectsHook;
-				PRODUCT_NAME = LWAspectsHook;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		481C79F5C07A881793399297BB5B77F1 /* Build configuration list for PBXNativeTarget "Aspects" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				845EF1568EC23AD96DE109111714C18C /* Debug */,
-				F46A072C41D0E95CFB47CC420687A31A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -785,20 +325,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E29E67F428CB153CE4D5B2EE33F25BA /* Build configuration list for PBXNativeTarget "LWAspectsHook" */ = {
+		FBFB64AACF18A14AFBB35EE4D04666FC /* Build configuration list for PBXNativeTarget "Pods-LWAspectsHook_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F91EB8AD6141593F44A22F66F75A14E9 /* Debug */,
-				56399AB3F83E169B52BEB5322ED672D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF14CC5C379FE73BD2BDF7121E894F2A /* Build configuration list for PBXNativeTarget "Pods-LWAspectsHook_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E5D3273CF3BAE85D63A40F568D4CE87 /* Debug */,
-				949B4223676364EA6AAAB91F8C33C128 /* Release */,
+				9ED730D07C4B472E52C4E9AE7759AC6C /* Debug */,
+				7EECD1ED99DF94F01FDBD07882932BA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

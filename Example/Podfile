@@ -3,9 +3,9 @@
 platform :ios, '8.0'
 
 target 'LWAspectsHook_Example' do
-  pod 'LWAspectsHook', :path => '../'
+  # pod 'LWAspectsHook', :path => '../'
 
-  pod 'Aspects'
+  # pod 'Aspects'
 
   # target 'LWAspectsHook_Tests' do
   #   inherit! :search_paths
