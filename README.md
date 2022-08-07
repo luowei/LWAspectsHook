@@ -11,6 +11,47 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```Objective-C
++ (void)load {
+    [super load];
+
+    [UIResponder setupWithConfiguration:[LWAppDelegate hookEventDict]];
+}
+
++ (NSDictionary *)hookEventDict {
+    return @{
+            @"LWViewController": @{
+                    Hook_TrackedEvents: @[
+                            @{
+                                    Hook_EventName: @"hookTest方法调用前",
+                                    Hook_Option: @(AspectPositionBefore),
+                                    Hook_EventSelectorName: @"hookTest:",
+                                    Hook_EventHandlerBlock: ^(id <AspectInfo> aspectInfo) {
+                                        LWLog(@"========hookTest before hooked =======");
+                                        LWLog(@"====== instance:%@  method:%@  arguments:%@ ", aspectInfo.instance, NSStringFromSelector(aspectInfo.originalInvocation.selector), aspectInfo.arguments);
+                                    },
+                            },
+                            @{
+                                    Hook_EventName: @"hookTest方法调用后",
+                                    Hook_Option: @(AspectPositionAfter),
+                                    Hook_EventSelectorName: @"hookTest:",
+                                    Hook_EventHandlerBlock: ^(id <AspectInfo> aspectInfo) {
+                                        LWLog(@"========hookTest after hooked =======");
+                                        id returnVal;
+                                        [aspectInfo.originalInvocation getReturnValue:&returnVal];
+                                        LWLog(@"====== instance:%@  method:%@  returnVal:%@ ", aspectInfo.instance, NSStringFromSelector(aspectInfo.originalInvocation.selector), returnVal);
+                                    },
+                            },
+                    ],
+            },
+
+            @"LWAppDelegate": @{
+            }
+    };
+}
+
+```
+
 ## Requirements
 
 ## Installation
