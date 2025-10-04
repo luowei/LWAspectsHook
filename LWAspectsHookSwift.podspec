@@ -26,7 +26,7 @@ It provides a clean, type-safe API for aspect-oriented programming with support 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'LWAspectsHook/SwiftClasses/**/*'
+  s.source_files = 'LWAspectsHook_swift/SwiftClasses/**/*'
 
   s.frameworks = 'UIKit', 'SwiftUI', 'Combine'
   s.dependency 'Aspects'

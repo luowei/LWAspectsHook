@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/LWAspectsHook.svg?style=flat)](https://cocoapods.org/pods/LWAspectsHook)
 [![Platform](https://img.shields.io/cocoapods/p/LWAspectsHook.svg?style=flat)](https://cocoapods.org/pods/LWAspectsHook)
 
-[English](./README.md) | [中文版](./README_ZH.md)
+[English](./README.md) | [中文版](./README_ZH.md) | [Swift Version](./README_SWIFT_VERSION.md)
 
 ## Overview
 

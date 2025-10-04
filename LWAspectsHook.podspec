@@ -33,6 +33,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LWAspectsHook/Classes/**/*'
+  s.exclude_files = 'LWAspectsHook/SwiftClasses/**/*'
   
   # s.resource_bundles = {
   #   'LWAspectsHook' => ['LWAspectsHook/Assets/*.png']
