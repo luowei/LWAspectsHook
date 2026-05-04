@@ -66,6 +66,8 @@ jobs:
           touch _graphify_pages/.nojekyll
 
       - name: Publish gh-pages branch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           cd _graphify_pages
